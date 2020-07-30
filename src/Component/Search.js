@@ -19,8 +19,8 @@ class Search extends React.Component {
     render(){
         return(
             <div className="mt-5 d-flex">
-                <input type="text" className="form-control form-control-lg d-inline" onChange={this.handleChange} placeholder="Search" />
-                <button onClick={this.handleSubmit} className="btn btn-dark">Submit</button>
+                <input type="text" className="form-control form-control-lg d-inline  rounded-left" onChange={this.handleChange} placeholder="Search" />
+                <button onClick={this.handleSubmit} className="btn btn-dark rounded-right">Submit</button>
             </div>
         )
     }

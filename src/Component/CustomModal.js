@@ -5,7 +5,6 @@ class CustomModal extends React.PureComponent {
     this.props.onClose && this.props.onClose(e);
   };
   render() {
-      console.log(this.props)
     if (!this.props.show) {
       return null;
     }

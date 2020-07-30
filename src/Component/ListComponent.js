@@ -69,7 +69,6 @@ class ListComponent extends React.PureComponent {
       height: "100px",
       margin: "30px"
     };
-    const loadingTextCSS = { display: this.state.loading ? "block" : "none" };
 
         return(
             <div>
@@ -88,7 +87,7 @@ class ListComponent extends React.PureComponent {
                       </div>)}
                 </ul>
                 <div ref={loadingRef => (this.loadingRef = loadingRef)}  style={loadingCSS}>
-                    <span  style={loadingTextCSS}>Loading...</span>
+                   
                 </div>
                 <CustomModal onClose={this.showModal} show={this.state.show}>
                  <div class="card border-0">
