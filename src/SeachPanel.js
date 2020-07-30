@@ -31,7 +31,6 @@ class SeachPanel extends React.Component {
         this.setState({page:value})
         this.getListData(this.state.text)
     }
-
     handleSearch(value){
         this.setState({text: value, listData: []})
         this.getListData(value)
